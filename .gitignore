@@ -1,0 +1,34 @@
+# Node.js dependencies
+node_modules/
+
+# Environment variables
+.env
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# SQLite database file
+database.sqlite
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Optional: Editor files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Build output (if any)
+dist/
+build/
+
+# Coverage reports (if using testing)
+coverage/
