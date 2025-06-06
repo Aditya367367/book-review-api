@@ -1,6 +1,7 @@
 const jwt = require('jsonwebtoken');
 require('dotenv').config();
-
+// Middleware to authenticate JWT tokens
+// This middleware checks for a valid JWT token in the Authorization header
 module.exports = function (req, res, next) {
   const token = req.header('Authorization')?.replace('Bearer ', '');
   if (!token) return res.status(401).json({ message: 'Access denied. No token provided.' });

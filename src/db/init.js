@@ -1,4 +1,5 @@
 const dbPromise = require('./index');
+// Initialize the database with tables
 
 async function init() {
   const db = await dbPromise;
