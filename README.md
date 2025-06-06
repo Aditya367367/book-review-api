@@ -31,7 +31,7 @@ The Book Review API is a RESTful service built using **Node.js**, **Express.js**
 
 ### 🗂 Installation Steps
 ```bash
-git clone <repository-url>
+git clone https://github.com/Aditya367367/book-review-api
 cd book-review-api
 npm install
 ```
@@ -71,12 +71,23 @@ Server will run on `http://localhost:3000`
 
 ## 💻 Example API Requests
 
+## 📝 Signup
+```http
+POST /signup
+Content-Type: application/json
+
+{
+  "username": "Aditya",
+  "password": "123456"
+}
+```
+
 ### 🔐 Login (Postman)
 ```http
 POST /login
 Content-Type: application/json
 {
-  "username": "john_doe",
+  "username": "Aditya",
   "password": "123456"
 }
 ```
